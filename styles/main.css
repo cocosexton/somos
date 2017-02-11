@@ -1,0 +1,51 @@
+html, body, div, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, ol, ul, li, form, legend, label, table, header, footer, nav, section, figure {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+body {
+  line-height: 1; }
+
+body {
+  font-size: 16px;
+  font-family: "calluna",serif;
+  font-style: normal;
+  font-weight: 300; }
+
+h1, p {
+  position: relative;
+  padding-top: 1.75rem; }
+
+h1 {
+  font-size: 1.5em;
+  line-height: 1.25;
+  font-weight: normal;
+  letter-spacing: 1px; }
+  @media only screen and (min-width: 460px) {
+    h1 {
+      font-size: 2.125em; } }
+
+p {
+  font-size: 1em;
+  line-height: 1.5; }
+  @media only screen and (min-width: 460px) {
+    p {
+      font-size: 1.125em; } }
+
+.intro {
+  text-align: center; }
+
+.wrapper {
+  margin: 0 auto;
+  width: 90%;
+  padding-top: 2em; }
+  @media only screen and (min-width: 460px) {
+    .wrapper {
+      width: 50%;
+      padding-top: 3em; } }
+  @media only screen and (min-width: 1000px) {
+    .wrapper {
+      width: 35%;
+      padding-top: 5em; } }
